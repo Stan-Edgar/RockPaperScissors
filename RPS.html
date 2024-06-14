@@ -3,15 +3,23 @@
 
 <head>
   <title>RockPaperScissors</title>
+  <link rel="stylesheet" href="RPS.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Graduate&family=Lato&family=Lobster&family=PT+Sans&family=Playfair+Display&family=Roboto&family=Roboto+Slab&family=Skranji&family=Smooch+Sans:wght@200&family=Tilt+Prism&display=swap"
+    rel="stylesheet">
+
 </head>
 
 <body>
 
   <h1>Rock Paper Scissors</h1>
-  <button onclick="myMove = 1, pcMove()">Rock</button>
-  <button onclick="myMove = 2, pcMove()">Paper</button>
-  <button onclick="myMove = 3, pcMove()">Scissors</button>
-  <button onclick="resetScore()">Reset score</button>
+  <button class="Moves" onclick="myMove = 1, pcMove()"><img src="Imgs/rock-emoji.png"></button>
+  <button class="Moves" onclick="myMove = 2, pcMove()"><img src="Imgs/Paper.png"></button>
+  <button class="Moves" onclick="myMove = 3, pcMove()"><img src="Imgs/Scissors.png"></button><br>
+  <button class="Reset" onclick="resetScore()">Reset score</button>
 
   <p id="myM"></p>
   <p id="computerM"></p>
@@ -136,14 +144,13 @@
     /* Paramaters use values (What is inside the function)
     -You can set the values to have a defualt value */
 
-    function ageCounter(myAge = 14) {
+    function ageCounter(myAge) {
 
       console.log(`I am ${myAge} years old`)
 
     };
 
-    ageCounter(90);
-
+    ageCounter(15);
 
 
 
