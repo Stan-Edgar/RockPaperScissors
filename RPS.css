@@ -1,0 +1,37 @@
+* {
+  font-family: Graduate;
+}
+
+
+body {
+  background-color: #C0C0C0;
+}
+
+
+.Moves {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  border: solid white;
+  background-color: #DFEFF0;
+  cursor: pointer;
+}
+
+img {
+  height: 70px;
+  width: 70px;
+  margin: auto;
+
+}
+
+.Reset {
+  width: 150px;
+  height: 30px;
+  background-color: #DFEFF0;
+  margin: 20px 0 0 65px;
+}
+
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
