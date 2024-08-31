@@ -82,7 +82,7 @@ let myMove = 0;
 
       /* Shows what move you & the computer played*/
 
-      document.getElementById("myM").innerHTML = "You're move: " + myMove;
+      document.getElementById("myM").innerHTML = "Your move: " + myMove;
       document.getElementById("computerM").innerHTML = "Computer's Move: " + computerMove;
 
       localStorage.setItem('score', JSON.stringify(score));
