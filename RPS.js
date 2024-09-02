@@ -20,6 +20,12 @@ let myMove = 0;
     function pcMove() {
       let computerMove = Math.floor(Math.random() * 3 + 1);
 
+      /*Show scoreboard*/
+      
+    const scoreBoard = document.getElementById("Outcomes");
+    scoreBoard.style.visibility = "visible"
+
+
 
       /*when I lose*/
 

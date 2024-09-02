@@ -46,7 +46,7 @@ button:hover {
 }
 
 
-.Outcomes {
+#Outcomes {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
