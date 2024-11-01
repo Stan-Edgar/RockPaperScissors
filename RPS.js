@@ -128,3 +128,5 @@ let myMove = 0;
 
     ageCounter(15);
 
+    console.log("Secret git branch message!");
+
